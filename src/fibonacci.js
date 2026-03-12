@@ -29,5 +29,3 @@ export function fibsRec(n) {
     return prev;
   }
 }
-
-console.log(fibs(8));

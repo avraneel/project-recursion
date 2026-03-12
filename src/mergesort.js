@@ -3,7 +3,7 @@ function merge(left, right) {
   let leftPointer = 0,
     rightPointer = 0;
   while (leftPointer < left.length && rightPointer < right.length) {
-    // Loop till both pointers point within array
+    // Loop as long as both pointers point within array
     if (left[leftPointer] < right[rightPointer]) {
       // add smaller element to merged array and update corresponding pointer
       merged.push(left[leftPointer]);
